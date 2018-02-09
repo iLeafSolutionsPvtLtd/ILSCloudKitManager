@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92144EB0202C3FEE00E7D90C /* ILSCloudKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92144EAF202C3FEE00E7D90C /* ILSCloudKitManager.m */; };
+		92144EB4202C407900E7D90C /* StudentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92144EB3202C407900E7D90C /* StudentTableViewCell.m */; };
+		92144EB8202C409200E7D90C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 92144EB7202C409200E7D90C /* Student.m */; };
+		92144EBE202C40AB00E7D90C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92144EBB202C40AB00E7D90C /* DetailViewController.m */; };
+		92144EBF202C40AB00E7D90C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92144EBD202C40AB00E7D90C /* ViewController.m */; };
+		9228686D20297DB500C59FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228686C20297DB500C59FDF /* AppDelegate.m */; };
+		9228687320297DB500C59FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9228687120297DB500C59FDF /* Main.storyboard */; };
+		9228687520297DB500C59FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9228687420297DB500C59FDF /* Assets.xcassets */; };
+		9228687820297DB500C59FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9228687620297DB500C59FDF /* LaunchScreen.storyboard */; };
+		9228687B20297DB600C59FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228687A20297DB600C59FDF /* main.m */; };
+		9228688420297DD800C59FDF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9228688320297DD800C59FDF /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92144EAE202C3FEE00E7D90C /* ILSCloudKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSCloudKitManager.h; sourceTree = "<group>"; };
+		92144EAF202C3FEE00E7D90C /* ILSCloudKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSCloudKitManager.m; sourceTree = "<group>"; };
+		92144EB2202C407900E7D90C /* StudentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTableViewCell.h; sourceTree = "<group>"; };
+		92144EB3202C407900E7D90C /* StudentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTableViewCell.m; sourceTree = "<group>"; };
+		92144EB6202C409200E7D90C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		92144EB7202C409200E7D90C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		92144EBA202C40AB00E7D90C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		92144EBB202C40AB00E7D90C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		92144EBC202C40AB00E7D90C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92144EBD202C40AB00E7D90C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9228686820297DB500C59FDF /* ILSCloudKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILSCloudKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9228686B20297DB500C59FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9228686C20297DB500C59FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9228687220297DB500C59FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9228687420297DB500C59FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9228687720297DB500C59FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9228687920297DB600C59FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9228687A20297DB600C59FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9228688120297DD200C59FDF /* ILSCloudKitExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ILSCloudKitExample.entitlements; sourceTree = "<group>"; };
+		9228688320297DD800C59FDF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9228686520297DB500C59FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9228688420297DD800C59FDF /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92144EAD202C3FEE00E7D90C /* ILSCloudKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				92144EAE202C3FEE00E7D90C /* ILSCloudKitManager.h */,
+				92144EAF202C3FEE00E7D90C /* ILSCloudKitManager.m */,
+			);
+			path = ILSCloudKitManager;
+			sourceTree = "<group>";
+		};
+		92144EB1202C407900E7D90C /* StudentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				92144EB2202C407900E7D90C /* StudentTableViewCell.h */,
+				92144EB3202C407900E7D90C /* StudentTableViewCell.m */,
+			);
+			path = StudentTableViewCell;
+			sourceTree = "<group>";
+		};
+		92144EB5202C409200E7D90C /* Student Model */ = {
+			isa = PBXGroup;
+			children = (
+				92144EB6202C409200E7D90C /* Student.h */,
+				92144EB7202C409200E7D90C /* Student.m */,
+			);
+			path = "Student Model";
+			sourceTree = "<group>";
+		};
+		92144EB9202C40AB00E7D90C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92144EBA202C40AB00E7D90C /* DetailViewController.h */,
+				92144EBB202C40AB00E7D90C /* DetailViewController.m */,
+				92144EBC202C40AB00E7D90C /* ViewController.h */,
+				92144EBD202C40AB00E7D90C /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9228685F20297DB500C59FDF = {
+			isa = PBXGroup;
+			children = (
+				9228686A20297DB500C59FDF /* ILSCloudKitExample */,
+				9228686920297DB500C59FDF /* Products */,
+				9228688220297DD800C59FDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9228686920297DB500C59FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9228686820297DB500C59FDF /* ILSCloudKitExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9228686A20297DB500C59FDF /* ILSCloudKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				92144EB9202C40AB00E7D90C /* ViewControllers */,
+				92144EB5202C409200E7D90C /* Student Model */,
+				92144EB1202C407900E7D90C /* StudentTableViewCell */,
+				92144EAD202C3FEE00E7D90C /* ILSCloudKitManager */,
+				9228688120297DD200C59FDF /* ILSCloudKitExample.entitlements */,
+				9228686B20297DB500C59FDF /* AppDelegate.h */,
+				9228686C20297DB500C59FDF /* AppDelegate.m */,
+				9228687120297DB500C59FDF /* Main.storyboard */,
+				9228687420297DB500C59FDF /* Assets.xcassets */,
+				9228687620297DB500C59FDF /* LaunchScreen.storyboard */,
+				9228687920297DB600C59FDF /* Info.plist */,
+				9228687A20297DB600C59FDF /* main.m */,
+			);
+			path = ILSCloudKitExample;
+			sourceTree = "<group>";
+		};
+		9228688220297DD800C59FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9228688320297DD800C59FDF /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9228686720297DB500C59FDF /* ILSCloudKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9228687E20297DB600C59FDF /* Build configuration list for PBXNativeTarget "ILSCloudKitExample" */;
+			buildPhases = (
+				9228686420297DB500C59FDF /* Sources */,
+				9228686520297DB500C59FDF /* Frameworks */,
+				9228686620297DB500C59FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILSCloudKitExample;
+			productName = ILSCloudKitExample;
+			productReference = 9228686820297DB500C59FDF /* ILSCloudKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9228686020297DB500C59FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "iLeaf Solutions pvt ltd";
+				TargetAttributes = {
+					9228686720297DB500C59FDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9228686320297DB500C59FDF /* Build configuration list for PBXProject "ILSCloudKitExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9228685F20297DB500C59FDF;
+			productRefGroup = 9228686920297DB500C59FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9228686720297DB500C59FDF /* ILSCloudKitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9228686620297DB500C59FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9228687820297DB500C59FDF /* LaunchScreen.storyboard in Resources */,
+				9228687520297DB500C59FDF /* Assets.xcassets in Resources */,
+				9228687320297DB500C59FDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9228686420297DB500C59FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92144EBF202C40AB00E7D90C /* ViewController.m in Sources */,
+				92144EB0202C3FEE00E7D90C /* ILSCloudKitManager.m in Sources */,
+				9228687B20297DB600C59FDF /* main.m in Sources */,
+				92144EB4202C407900E7D90C /* StudentTableViewCell.m in Sources */,
+				92144EB8202C409200E7D90C /* Student.m in Sources */,
+				9228686D20297DB500C59FDF /* AppDelegate.m in Sources */,
+				92144EBE202C40AB00E7D90C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9228687120297DB500C59FDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9228687220297DB500C59FDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9228687620297DB500C59FDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9228687720297DB500C59FDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9228687C20297DB600C59FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9228687D20297DB600C59FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9228687F20297DB600C59FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ILSCloudKitExample/ILSCloudKitExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6AK6TF2DS;
+				INFOPLIST_FILE = ILSCloudKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ileafsolutions.cloudkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9228688020297DB600C59FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ILSCloudKitExample/ILSCloudKitExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6AK6TF2DS;
+				INFOPLIST_FILE = ILSCloudKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ileafsolutions.cloudkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9228686320297DB500C59FDF /* Build configuration list for PBXProject "ILSCloudKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9228687C20297DB600C59FDF /* Debug */,
+				9228687D20297DB600C59FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9228687E20297DB600C59FDF /* Build configuration list for PBXNativeTarget "ILSCloudKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9228687F20297DB600C59FDF /* Debug */,
+				9228688020297DB600C59FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9228686020297DB500C59FDF /* Project object */;
+}
