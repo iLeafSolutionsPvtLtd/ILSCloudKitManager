@@ -10,12 +10,18 @@ CloudKit, Apple’s remote data storage service, provides a possibility to store
 ## Requirements
 iOS 8.0
 
-
 ## How To Get Started
 
 - Set up Cloud/CloudKit at iOS Developer Portal.
 - Insert a bundle identifier and choose a corresponding Team.
 - Select Capabilities tab in the target editor, and then switch ON the iCloud.
+
+It’s important that your app’s bundle id and iCloud containers match and can be reached in the developer account. For example, if a bundle identifier is “com.<your domain>.cloud”, a name for the iCloud container should be “iCloud” + the id of the bundle: “iCloud.com.<your domain>.cloud”.
+The app will work only if you meet all the conditions in the settings.
+
+<img src="./Asset/settings.png?raw=true">
+
+In order to work this in iOS simulator, You have to sign into iCloud on your simulator. Go to settings, iCloud, and enter your iCloud credentials.
 
 ## Usage
 
