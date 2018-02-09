@@ -36,7 +36,7 @@ static NSString * const kCKRecordName = @"STUDENT";
     [self addPaddingInFrontOfTextField:_emailField];
     [self addPaddingInFrontOfTextField:_passwordField];
     [self addPaddingInFrontOfTextField:_nameField];
-
+    
     
     // If editing a record, populate data in textfields
     if(_student){
@@ -124,24 +124,24 @@ static NSString * const kCKRecordName = @"STUDENT";
     
     NSMutableDictionary *recordDic = [[NSMutableDictionary alloc]init];
     
-//  Name
+    //  Name
     NSString *name = [self.nameField.text stringByTrimmingCharactersInSet:
                       [NSCharacterSet whitespaceCharacterSet]];
     [recordDic setObject:name forKey:@"name"];
     
-//  Email
+    //  Email
     NSString *email = [self.emailField.text stringByTrimmingCharactersInSet:
                        [NSCharacterSet whitespaceCharacterSet]];
     [recordDic setObject:email forKey:@"email"];
     
-//  Password
+    //  Password
     NSString *password = [self.passwordField.text stringByTrimmingCharactersInSet:
-                        [NSCharacterSet whitespaceCharacterSet]];
+                          [NSCharacterSet whitespaceCharacterSet]];
     [recordDic setObject:password forKey:@"password"];
-//  Category
+    //  Category
     [recordDic setObject:kCKRecordName forKey:@"category"];
     
-//    Picture
+    //    Picture
     if(_pictureImageURL){
         CKAsset *picture = [[CKAsset alloc]initWithFileURL:_pictureImageURL];
         [recordDic setObject:picture forKey:@"picture"];
@@ -179,6 +179,9 @@ static NSString * const kCKRecordName = @"STUDENT";
         }];
         
     }
+    
+    
+
 }
 
 

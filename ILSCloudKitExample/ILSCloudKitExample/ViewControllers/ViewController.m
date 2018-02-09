@@ -117,6 +117,9 @@ static NSString * const kCKRecordName = @"STUDENT";
             });
         }
     }];
+    
+    
+    
 }
 
 #pragma mark - Delete a student record from iCloud
@@ -135,6 +138,8 @@ static NSString * const kCKRecordName = @"STUDENT";
             });
         }
     }];
+    
+    
 }
 
 #pragma mark - Map fetch result to student model object
