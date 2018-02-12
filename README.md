@@ -7,6 +7,11 @@ ILSCloudKitManager is wrapper for managing apple's CloudKit operations like crea
 
 CloudKit, Apple’s remote data storage service, provides a possibility to store app data using users’ iCloud accounts as a back-end storage service.
 
+
+## Preview
+<img src="./Asset/Screenshot1.png?raw=true"> <img src="./Asset/Screenshot1.png?raw=true">
+
+
 ## Requirements
 iOS 8.0
 
