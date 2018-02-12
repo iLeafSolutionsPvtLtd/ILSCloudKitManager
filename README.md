@@ -1,4 +1,3 @@
-<img src="./Asset/art.png?raw=true">
 
 
 # ILSCloudKitManager
