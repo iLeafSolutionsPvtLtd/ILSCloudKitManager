@@ -9,7 +9,7 @@ CloudKit, Apple’s remote data storage service, provides a possibility to store
 
 
 ## Preview
-<img src="./Asset/Screenshot1.png?raw=false"> <img src="./Asset/Screenshot2.png?raw=false">
+<img src="./Asset/Screenshot1.png?raw=false">
 
 
 ## Requirements
